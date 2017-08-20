@@ -125,6 +125,7 @@ var Engine = (function(global) {
         });
 
         player.render();
+
     }
 
     /* 这个函数现在没干任何事，但是这会是一个好地方让你来处理游戏重置的逻辑。可能是一个
@@ -143,7 +144,11 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-boy.png',
+        'images/char-boy.png',
+        'images/Selector.png',
+        
+        
     ]);
     Resources.onReady(init);
 
