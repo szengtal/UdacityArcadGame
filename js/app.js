@@ -85,7 +85,6 @@ var Player = (function () {
             "506": 1,
             "-100": 405
         }
-        console.log(_Player.x + "//" + _Player.y)
         _Player.x = editorX[(_Player.x).toString()] ? editorX[(_Player.x).toString()] : _Player.x;
         _Player.y = editorY[(_Player.y).toString()] ? editorY[(_Player.y).toString()] : _Player.y;
         if (_Player.y === -13 && !allEnemies.has("reward")) {
